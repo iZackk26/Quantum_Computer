@@ -1,0 +1,18 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Transistores}{2}{}%
+\contentsline {section}{\numberline {2}Objetivos}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Objetivo general}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Objetivos específicos}{3}{}%
+\contentsline {section}{\numberline {3}Marco Teórico}{3}{}%
+\contentsline {section}{\numberline {4}Funcionamiento y avances de las computadoras cuánticas en contraste con las computadoras tradicionales}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Bit vs Qubit}{3}{}%
+\contentsline {subsection}{\numberline {4.2}Componentes principales}{4}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Chips}{4}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Sistema de refrigeración}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Software}{5}{}%
+\contentsline {subsection}{\numberline {4.4}criptografía}{7}{}%
+\contentsline {subsection}{\numberline {4.5}Aportes}{7}{}%
+\contentsline {subsubsection}{\numberline {4.5.1}Procesamiento de imágenes}{7}{}%
+\contentsline {subsubsection}{\numberline {4.5.2}Finanzas}{7}{}%
+\contentsline {section}{\numberline {5}Cositas}{8}{}%
+\contentsline {section}{\numberline {6}Conclusiones}{8}{}%
