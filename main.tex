@@ -208,11 +208,23 @@ A pesar de que la seguridad de la criptografía esté en juego, los algoritmos c
 
 \begin{itemize}
     \item{A}. Criptografía Simétrica
+
         En la criptografía simétrica, tanto el remisor como el emisor comparten una misma llave y un mismo sistema cryptografico, por el cuál se encripta y decripta la información. Esta clave debe ser mantenida en secreto ya que es unica, como la clave es la misma para ambos esto puede poner en riesgo la información, ya que con solo que una persona se entere de esta contraseña se hará pública. A causa de este problema se lanzó la criptografía asimétrica.
+    \item{B}. Criptografía asimétrica
+
+        En la criptografía asimétrica, también llamada criptografía de clave pública(PKC), es una forma de encriptación donde las llaves o contraseñas vienen en parejas (Mavroeidis et al., 2018b).
+
+        ¿A qué hace referencia esto? Se refiere a que se utilizan claves distintas para cifrar y descifrar, a diferencia de la simetrica, ahi se utiliza la misma clave para cifrado y descifrado, en la asimétrica se utiliza una clave privada y otra publica.La clave pública se comparte ampliamente y se utiliza para cifrar la información que se va a enviar a la persona que posee la clave privada. Solo el propietario de la clave privada correspondiente puede descifrar la información cifrada con la clave pública. La clave privada se mantiene en secreto y solo la persona que la posee puede usarla para descifrar la información cifrada con la clave pública.
 
 \end{itemize}
 
+Un problema muy importante de la criptografía es el problema de factorización, ya que existe un algoritmo llamado criptosistema RSA, el cuál se encarga de encriptar las contraseñas con algoritmos como los AES. Kirsch afirma que RSA es teóricamente vulnerable, ya que en un sistema cuantico donde se pueden realizar una cantidad de algoritmos eficientes que decripten contraseñas, puede llegar a ser un problema para la seguridad de este tipo de datos y encriptaciones.
 
+Otro problema común es el problema del logaritmo discreto (DLP), en este se utilizan sistemas de seguridad como Diffie-Hellman y Elliptic Curve Cryptography para proteger la información. El DLP consiste en encontrar un número entero r que cumpla con cierta ecuación matemática. Resolver este problema es muy difícil y requiere de mucho tiempo y recursos computacionales. Debido a esto, los sistemas de seguridad son muy efectivos para proteger información.
+
+Por lo tanto un sistema como una computadora cuantica puede llegar a resolver este tipo de problema en cuestion de segundos, entoces llegamos a la conclusion de que estos equipos pueden tanto dar mucha seguridad como vulnerabilidades en los sistemas criptografícos.
+
+\subsubsection{Vulnerabilidades en los Criptosistemas en la Computación Cuantica}
         
 
 
@@ -271,6 +283,7 @@ Comisión Nacional del Agua.
 
 \bibitem{The Impact of Quantum Computing on Present}
 Mavroeidis, V., Vishi, K., Zych, M., & Jøsang, A. (2018b). The Impact of Quantum Computing on Present Cryptography. International Journal of Advanced Computer Science and Applications, 9(3). https://doi.org/10.14569/ijacsa.2018.090354
+A pesar de qué la seguridad de la criptografía esté en juego, los algoritmos cuanticos pueden llegar a encriptar claves 
 
 
 
