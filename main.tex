@@ -40,13 +40,13 @@
   stringstyle=\color{mymauve},     % string literal style
   morekeywords={run, getDimensions, newArray, getResult}
 }
-
+\linespread{1.7}
 % -=-=-=-=-=-=-=-=-=-=
 % Cabecera y pie de página
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Proyecto de investigación: Computación Quántica}
+\rhead{Proyecto de investigación: Computación Cuántica}
 \lhead{Instituto Tecnológico de Costa Rica}
 \cfoot{\thepage}
 % -=-=-=-=-=-=-=-=-=-=
@@ -58,10 +58,11 @@
 \def\HUGE{\@setfontsize\HUGE{30}{60}}
 \setlength{\parskip}{0.1in}
 
-\newcommand{\myTitle}{Computación Cuantica}
+\newcommand{\myTitle}{Funcionamiento y avances de las computadoras cuánticas en contraste con las computadoras tradicionales}
 
 \newcommand{\authora}{Adrián José Villalobos Peraza}
 \newcommand{\authorb}{Isaac Ramírez Rojas}
+\newcommand{\authorc}{Maikol Gabriel Flores Madrigal}
 \newcommand{\myReviewers}{Rocio De Los Angeles Quiros Oviedo}
 
 \newcommand{\myDate}{Marzo del 2023}
@@ -75,72 +76,65 @@
 \tableofcontents
 
 
-
+\newpage
+\section{Abstract}
+Quantum computers are a new type of hardware that operate based on the principles of quantum mechanics. Unlike conventional computers, quantum computers use a different kind of unit of information called 'qubit'. What makes quantum computers special is their ability to perform parallel processing using qubits, which allows them to potentially solve certain calculations much faster than conventional computers. On the other hand, nowadays conventional computers are widely used in almost all aspects of our daily lives. However, quantum computers are expected to have limit applications due to their cost and complexity.  
 
 \newpage
 
-\section{Transistores}
+\section{Introducción}
+Tanto la computación como la física han presentado una gran evolución en los últimos años, por un lado, la computación ha sido la base de toda tecnología, desde su fabricación, la computación ha estado renovando todos los aspectos de la vida cotidiana, al punto de que en este momento sería impensable un mundo sin la computación, mientras que la física ha avanzado en varios campos, en especial en la física cuántica, sin embargo, la física cuántica es una teoría relativamente reciente, por lo tanto aún se sigue trabajando en ella para acabar con las ambigüedades que rodean a esta rama de la física.. En el momento en el que se llegan a unir los conocimientos de estos campos de investigación, surge la computación cuántica. La computación cuántica se basa en los principios de la mecánica cuántica, lo cual le permite tener una capacidad de procesamiento y análisis increiblemente mayor al de las computadoras clásicas, gracias a su característica de poder analizar multiples casos al mismo tiempo.
 
-% Considere que las referencias están en formato \textit{Bibitems} y se incluyen al final de este archivo.
+Las computadoras cuánticas, gracias a las capacidades que tienen, prometen traer consigo mismas una gran revolución al mundo actual, estas podrían dejar huella en varios ámbitos de la cotidianidad como el entretenimiento, sin embargo, se presume que donde las computadoras cuánticas tendrán mayor relevancia es en el aspecto técnico y profesional, como ciberseguridad, medicina, finanzas, criptografía, entre otros.
 
-\begin{quote}
-    \textbf{Este es un ejemplo de como se deben insertar referencia en el documento~\cite{conagua-2011}. Considere que las referencias están en formato \textit{Bibitems} y se incluyen al final de este archivo~\cite{conagua-2011,undesa2008}.}
-\end{quote}
+En esta investigación se realizará una comparación exhaustiva entre la computación clásica y la computación cuántica. Se abarcarán temas como fundamentos y principios teóricos, hardware, algoritmos, lenguajes de programación y aplicación en varios campos, además, se mencionarán algunos aspectos que limitan a las computadoras cuánticas y la proyección a futuro que se espera que tenga este tipo de tecnología.
 
+\newpage 
+\section{Justificación}:
+El objetivo de esta investigación es dar una visión de la computación cuántica y el potencial que tienen para llegar a ser la clave en varios campos de investigación en contraste con las computadoras tradicionales.
 
-% Texto dummy para rellenar el documento
-Actualmente vivimos en una época en donde los transistores están contenidos en la mayoría de las computadoras, con las nuevas revoluciones tecnológicas se está implementando el desarrollo de computadoras cuánticas.   
-
-En la actualidad hay un gran problema con los transistores, debido a que cada año se duplica la cantidad de transistores de los procesadores, va a llegar un punto en donde los transistores van a ser tan pequeños que pueden llegar a el problema de los túneles cuánticos.  
-
-¿Qué es esto?  Los túneles cuánticos se pueden ver de la siguiente manera, imaginemos un tubo al cual le entran bolitas (átomos) y a ese tubo le agregamos una gran curva en el medio para que no pasen esos átomos, el efecto de los túneles cuánticos hace que a pesar de que los átomos no puedan pasar, estos átomos son tan pequeños que llegan a ser átomos cuánticos.  
-
-¿Qué significa esto? Que esos átomos pueden estar en varios lugares al mismo tiempo, entonces los átomos pueden teletransportarse hacia el otro lado de la curva. ¿Qué queremos decir con esto? Como los transistores solo pueden dar señales de ceros y unos, los ceros, el error viene con los átomos cuánticos, ya, aunque el transistor no esté dando señales estos átomos cuánticos pasarán y se harán procesos no deseados. 
-
-Además de lo anteriormente mencionado, se debe destacar la reducción de los tamaños de los transistores ya que ha sido una tendencia que se ha seguido desde los años 50, gracias a la Ley de Moore, que establece que cada dos años se duplicará la cantidad de transistores, esto brindará tecnologías más compactas y avanzadas, solo con el problema de los túneles cuánticos anteriormente mencionados. Por eso muchos investigadores han llevado a la búsqueda de nuevas tecnologías. 
-
-A pesar de que las computadoras cuánticas tengan un gran potencial, aún se encuentran en desarrollo y hay muy poca información, una de las empresas que han invertido en estos proyectos son IBM, estas computadoras aún se encuentran en desarrollo y su uso está limitado.   
-
- % ejemplo de figura
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=3.5in]{quantum,.jpg}
-    \caption{Pie de texto en la figura.}
-    \label{fig:quantum}
-\end{figure}
-
-
-Acá sigue texto
-
-
+\newpage
 \section{Objetivos}
 
 \subsection{Objetivo general}
-Texto sobre los objetivos generales acá
+Comparar el funcionamiento de las computadoras clásicas y las computadoras cuánticas en la actualidad y su proyección en el futuro.
 
 \subsection{Objetivos específicos}
 
 \begin{itemize}
-	\item Objetivo 1
-	\item Objetivo 2
-	\item Objetivo 3
-	\item Objetivo 4
+	\item Conocer el funcionamiento del hardware de una computadora clásica en contraste con una computadora tradicional.
+	\item Reconocer los objetivos de la computación cuántica y cómo se aplicará en ámbitos donde la computación clásica está presente.
 \end{itemize}
 
+\newpage
 \section{Marco Teórico}
-Inicio de Marco Teórico
+\subsection{Mecánica cuántica} 
+La mecánica cuántica es una teoría de la física que describe el comportamiento de la materia y la energía a escalas muy pequeñas, como las de los átomos y las partículas subatómicas. Por otro lado, la mecánica cuántica ha demostrado ser uno de los descubrimientos más importantes de la física, ya que es indispensable en la explicación y predicción de fenómenos en estas escalas, como la estructura atómica, la química y las propiedades de los materiales. (Mann y Coolman, 2022).
 
-\section{Funcionamiento y avances de las computadoras cuánticas en contraste con las computadoras tradicionales}
+\subsection{Superposición cuántica} 
+Uno de los hallazgos más grandes en esta rama de la física, es la superposición cuántica, la cual es la capacidad de las partículas pequeñas de estar en más de un lugar a la vez, a diferencia del mundo macroscópico en el que se sabe que los objetos están en un solo lugar. Es imposible para la física actual saber donde se encuentran las partículas, no obstante, existe una forma de aproximar su posición y es mediante las ondas cuánticas. (Metwalli, 2023).
+
+\subsection{Ruido}
+En terminos de computación cuántica, se conoce como ruido a todas las perturbaciones que pueden tener los procesos de realizados por las computadoras cuánticas, las cuales debido a su compleja estructura, son sensibles a este tipo de perturbaciones Algunos de los problemas que puede tener los procesos cuánticos son, aumento en la temperatura, la escalabilidad y la decoherencia, además, según Maier et al (2019), cuando hay niveles elevados de ruido se les llama Zeno cuántico. 
+
+\newpage
+\section{Estado del arte}
 
 \subsection{Bit vs Qubit}
-Para empezar, se debe destacar que la unidad más básica de información de las computadoras tradicionales son los bits, los cuales solo pueden representar uno de dos valores, un ‘1’ o un ‘0’. Por otro lado, en la computación cuántica existen los qubits, los cuales son bits con la capacidad de presentar más de un estado a la vez, de hecho, lo que hace especial a los qubits es que estos mantienen todos los estados simultáneamente, es decir, son ‘1’ y ‘0’ al mismo tiempo, esto es gracias a la superposición cuántica. Sin embargo, a la hora de querer medir el valor de un qubit, este solo puede decir ‘1’ o ‘0’, es decir, que se fuerza al sistema a que elija el valor aleatoriamente para poder manifestarlo, colapsando así la superposición que mantenía. (S et al., 2022, p.103337).
+Para empezar, se debe destacar que la unidad más básica de información de las computadoras tradicionales son los bits, los cuales solo pueden representar uno de dos valores, un ‘1’ o un ‘0’. Por otro lado, en la computación cuántica existen los qubits, los cuales son bits con la capacidad de presentar más de un estado a la vez, de hecho, lo que hace especial a los qubits es que estos mantienen todos los estados simultáneamente, es decir, son ‘1’ y ‘0’ al mismo tiempo, esto es gracias a la superposición cuántica. Sin embargo, a la hora de querer medir el valor de un qubit, este solo puede decir ‘1’ o ‘0’, es decir, que se fuerza al sistema a que elija el valor aleatoriamente para poder manifestarlo, colapsando así la superposición que mantenía. (S et al., 2022).
 
 En otras palabras, se puede llegar a la conclusión de que la forma de tratar la información en la computación cuántica es mediante probabilidades, mientras que en la computación normal los valores son absolutos y claramente determinados.
 
 Por otro lado, los qubits presentan otra característica muy importante, que es el entrelazamiento. En términos generales, el entrelazamiento cuántico consiste en que las acciones realizadas por un qubit no afectan únicamente al qubit en cuestión, si no que, esta acción puede afectar y determinar las acciones de otro qubit, incluso puede cambiar la forma de trabajar de un conjunto de qubits, no necesariamente uno solo y todo esto es posible sin importar la distancia a los que estos se encuentren. 
-Existen varias maneras de crear un entrelazamiento cuántico entre los qubits, una de ellas es el acoplamiento directo, que consiste en sincronizar dos qubits mediante el uso de una fuerza externa. También existe el entrelazamiento por medio de campos magnéticos, el cual se trata de colocar los qubits que se quieren entrelazar en un campo magnético para ajustar sus frecuencias y lograr que sean iguales, de esta forma se puede generar un entrelazamiento cuántico. (Ayoub y Akram, 2021, p.1353977).
+Existen varias maneras de crear un entrelazamiento cuántico entre los qubits, una de ellas es el acoplamiento directo, que consiste en sincronizar dos qubits mediante el uso de una fuerza externa. También existe el entrelazamiento por medio de campos magnéticos, el cual se trata de colocar los qubits que se quieren entrelazar en un campo magnético para ajustar sus frecuencias y lograr que sean iguales, de esta forma se puede generar un entrelazamiento cuántico. (Ayoub y Akram, 2021).
 
 Lo anterior provoca que los sistemas de computación cuántica logren cálculos muchos más rápidos, ya que los qubits están en constante ‘comunicación’, a diferencia de los bits normales que trabajan de manera independiente a los otros. 
+
+\subsection{Transporte de información}
+El transporte en la cuántica también es importante, porque es la manera como los qubits van a viajar. Por un lado, para la comunicación tradicional de bits, la manera de transportarlos es más sencillo, ya que se toma en cuenta los buses, los transistores y las compuertas lógicas. Sin embargo, con la computación cuántica resulta un poco diferente, ya que a la hora de transportar información, los qubits podrían presentar problemas debido a agentes externos, como el ruido.
+Si se habla de la manera en que se puede transportar un qubit, estos pueden viajar como fotones que, por medio de la infraestructura preparada y controlada pueden viajar a velocidades muy rápidas. Maier et al (2019) mencionan que, para transportar los qubits se utiliza un Hamiltoniano, (un operador que actúa sobre la función de onda de un sistema cuántico, con el fin de describir su energía total), esto con el objetivo de una interacción de los spines, la descripción de saltos y conservar la magnetización.
+
+Por otro lado, las investigaciones para optimizar el transporte de información en las computadoras cuánticas siguen vigentes, además, según Caleffi et al. (2018), trabajar con fotones como método de transporte de información puede facilitar estas investigaciones, ya que las características de la luz, la convierte en uno de los métodos más factibles para este tipo de tecnología.
 
 \subsection{Componentes principales}
 Hoy en día, las computadoras tradicionales tienen un hardware bien establecido, son formadas por varios componentes como la memoria, la memoria de acceso aleatorio, el procesador, almacenamiento, entre otros elementos.
@@ -166,20 +160,20 @@ Por otro lado, al mantener el hardware a bajas temperaturas se habilita el uso d
 \subsection{Software}
 En la computación clásica, existen distintos lenguajes de programación, muchos de estos están enfocados a crear un tipo de algorítmo, sin embargo, estos lenguajes no están presentes en la computación cuántica. Muchas instituciones actualmente buscan a individuos que se encargan de desarrollar software para computadoras cuánticas (QC), pero esto es una tecnología muy reciente, por lo tanto, muy pocas personas tienen el conocimiento necesario para realizar este tipo de desarrollo. Las computadoras cuánticas utilizan dos principales mecánicas, que son la superposición y el entrelazamiento. 
 
-Muchas empresas buscan invertir en este tipo de tecnología debido a que es muy eficiente, rápida y puede realizar cálculos que ni si quiera una super computadora puede realizar, por ejemplo, Google pose una computadora cuántica que puede realizar un cálculo de información en segundos, mientras que una supercomputadora puede durar hasta 10 años. 
+Muchas empresas buscan invertir en este tipo de tecnología debido a que es muy eficiente, rápida y puede realizar cálculos que ni si quiera una super computadora puede realizar, por ejemplo, Google pose una computadora cuántica que puede realizar un cálculo de información en segundos, mientras que una supercomputadora puede durar hasta 10 años (Awan et al., 2022)
 
 Este tipo de tecnología tiene ventajas y desventajas, una de las ventajas es que este tipo de tecnología se utiliza mucho en la criptografía, por ejemplo, en la encriptación y desencriptación de contraseñas, debido a que permite realizar estos procesos en segundos, esto hace muchos años se veía imposible debido a que las computadoras convencionales no pueden realizar este tipo de cálculos a gran escala tan rápido. Una desventaja a su vez es que se pueden desencriptar las claves mucho más rápido, debido a que como ya se mencionó el nivel de eficiencia de estás maquinas pueden llegar a descifrar contraseñas en cuestión de segundos. 
 
-Uno de los algoritmos más famosos en términos de la computación cuántica es Grover, que según Grover, (1996) tiene como función la utilización de la superposición y el entrelazamiento. Este algoritmo funciona de la siguiente manera. Primero se utilizan bases de datos no ordenadas donde cada elemento es igual de probable que sea la solución que estamos buscando, lo que significa que en promedio se tendrán que buscar una cantidad de N/2 elementos para encontrar la solución, luego este algoritmo crea una superposición cuántica de todos los elementos de la base de datos.  
+Uno de los algoritmos más famosos en términos de la computación cuántica es Grover, que según Grover, tiene como función la utilización de la superposición y el entrelazamiento. Este algoritmo funciona de la siguiente manera. Primero se utilizan bases de datos no ordenadas donde cada elemento es igual de probable que sea la solución que estamos buscando, lo que significa que en promedio se tendrán que buscar una cantidad de N/2 elementos para encontrar la solución, luego este algoritmo crea una superposición cuántica de todos los elementos de la base de datos (Pronin, 2021).
 
 Luego se utiliza una función oráculo cuántico para marcar el elemento correcto en la superposición. Esta marca puede ser pensada como una fase negativa que se aplica al estado cuántico que representa al elemento correcto. En otras palabras, se cambia la fase del qubit que representa al elemento correcto, lo que hace que sea más fácil de identificar en el siguiente paso del algoritmo. Luego se van marcando los elementos que no son correctos para ir reduciendo la lista de elementos y así sucesivamente hasta llegar al elemento correcto. 
 
-Quiskit es un software creado para las computadoras cuánticas, que se basa en la implementación de Python y sirve para la creación de aplicaciones y simulación de sistemas cuánticos.  
+Quiskit es un software creado para las computadoras cuánticas, que se basa en la implementación de Python y sirve para la creación de aplicaciones y simulación de sistemas cuánticos (Alexander, 2020)
 
 En Qiskit Pulse los programas se componen de pulsos, canales e instrucciones. Los pulsos son las formas de onda que se utilizan para manipular los qbits, estos pulsos se definen mediante una amplitud, duración y frecuencia, por ejemplo, los Rabi, Ramsey y de igual forma Qiskit permite al usuario crear sus propios pulsos. Los canales son medios por los cuales se envían señales a los qbits y las instrucciones son los comandos que se utilizan para realizar tareas como la preparación de estados, operaciones lógicas y la medición.
 La plataforma se compone de cuatro principales componentes: Terra, Aer, Aqua e Ignis. Terra es el núcleo de Qiskit y proporciona una interfaz para la construcción y ejecución de circuitos cuánticos. Aer es una biblioteca que permite simular circuitos cuánticos en diferentes plataformas, como CPUs y GPUs. Aqua es una biblioteca que proporciona una colección de algoritmos cuánticos preconstruidos y optimizados para su uso en aplicaciones de diferentes dominios, como la química y la optimización. Ignis es una biblioteca que proporciona herramientas para la caracterización y corrección de errores de los sistemas cuánticos (Alexander, 2020). 
 
-Otro software muy importante desarrollado para la computación cuántica es el Microsoft Quantum Development Kit (QDK), Que es un entorno de desarrollo que permite a los usuarios crear, simular, ejecutar algoritmos cuánticos en un entorno más familiarizado para los usuarios como es Visual Studio Code, en este lenguaje se utiliza el lenguaje llamado Q\#.  
+Otro software muy importante desarrollado para la computación cuántica es el Microsoft Quantum Development Kit (QDK), Que es un entorno de desarrollo que permite a los usuarios crear, simular, ejecutar algoritmos cuánticos en un entorno más familiarizado para los usuarios como es Visual Studio Code, en este lenguaje se utiliza el lenguaje llamado Q\# (Mykhailova, 2021b).
 
 El QDK proporciona un conjunto de herramientas y bibliotecas para la simulación, el diseño y la implementación de algoritmos cuánticos en diferentes plataformas de hardware cuántico. Incluye un simulador cuántico que permite a los desarrolladores probar y depurar su código antes de ejecutarlo en hardware cuántico real. 
 
@@ -193,7 +187,7 @@ Generalmente cuando se desarrolla un software en un entorno como el QDK, se debe
     \label{fig:quantum}
 \end{figure}
 
-Otro aspecto importante por mencionar es Quantum Katas, que son una serie de tutoriales y ejercicios diseñados para ayudar a las personas a entender la computación quántica, esta herramienta de igual forma fue creada por Microsoft con el fin de poder ayudar a los programadores a entender cómo funciona la computación cuántica. En este lenguaje se pretende explicar la sintaxis de Q\# (Q Sharp), estos ejercicios que proporciona Quantum Katas van desde nivel principiante hasta avanzado y cubre muchos temas relacionados con la computación cuántica. 
+Otro aspecto importante por mencionar es Quantum Katas, que son una serie de tutoriales y ejercicios diseñados para ayudar a las personas a entender la computación quántica, esta herramienta de igual forma fue creada por Microsoft con el fin de poder ayudar a los programadores a entender cómo funciona la computación cuántica. En este lenguaje se pretende explicar la sintaxis de Q\# (Q Sharp), estos ejercicios que proporciona Quantum Katas van desde nivel principiante hasta avanzado y cubre muchos temas relacionados con la computación cuántica (Mykhailova, 2020).
 
 Después de hablar sobre muchos softwares creados en la computación cuántica hay que hacer una breve comparativa entre estos softwares, comparados con softwares de la actualidad, si observamos las características de la computación cuántica a nivel de software, en general podemos ver que son muy eficientes ya que realizan tareas en conjunto mediante la superposición y el entrelazamiento, estas características no las pueden utilizar en softwares convencionales, otra característica muy importante es que el nivel de velocidad que poseen estos softwares son descomunales, ya que como anteriormente se menciona en la criptografía, una desencriptación de una contraseña en un software convencional puede tardar 10 años, mientras que en un software cuántico es cuestión de segundos, esto hace que la eficiencia y la velocidad de este tipo de software sea de interés a nivel empresarial e industrial. 
 
@@ -201,7 +195,22 @@ Otro factor importante por considerar en la comparación de softwares cuánticos
 
 En conclusión, los softwares cuánticos ofrecen grandes capacidades en velocidades, capacidad y precisión, sin embargo, estos softwares se encuentran en desarrollo y existen muchos retos que deben ser superados, para poder llevar este software a un nivel de mejora más alto. A medida que los ordenadores y los algoritmos cuánticos sigan evolucionando, se espera que se abran nuevas posibilidades en áreas como la optimización, la simulación de sistemas complejos y la criptografía. 
 
-\subsection{Criptografía}
+\subsection{Aportes}
+Hoy en día, no existe ningún campo o área en la cual la computación no tenga relevancia, desde trabajos profesionales hasta entretenimiento, la computación está presente en todo sitio, por otro lado, la computación cuántica tiene una visión de estar más enfocada al ámbito profesional, debido a sus abrumadoras capacidades, por lo tanto, se mencionarán algunas áreas en las cuales la computación cuántica podría desarrollar presencia en los próximos años:
+
+\subsubsection{Procesamiento de imágenes} 
+La computación cuántica presenta varias ventajas en este ámbito con respecto a la computación tradicional, varias de estas ventajas son: 
+\begin{enumerate}
+    \item Velocidad: las computadoras cuánticas tienen la capacidad de realizar operaciones en paralelo, lo cual acorta el tiempo de procesamiento drásticamente.
+
+    \item Reducción de errores: este tipo de computación promete realizar cálculos más precisos, ya que analiza todos los casos posibles para dar con una respuesta.
+
+    \item Reducción de recursos: al procesar imágenes de una forma más eficiente, es capaz de minimizar el consumo de otros recursos como lo es la memoria.
+\end{enumerate}
+
+En términos cotidianos, estos cambios no logran convencer a muchas personas, sin embargo, donde realmente se observan resultados sorprendentes es a la hora de procesar imágenes muy técnicas, por ejemplo, las imágenes médicas, donde imágenes en 3D pueden tener entre 512 y 1024 pixeles, en estos casos en concreto es donde se pueden observar cambios significantes, en especial en el tiempo requerido para procesar este tipo de imágenes. (Nouioua y Belbachir, 2023, p.104)
+
+\subsubsection{Criptografía}
 Actualmente no hay duda de que los avances en la tecnología y comunicaciones electricas han aumentado y son uno de los principales pilares de la tecnologia en la edad moderna. En la actualidad se necesitan medios de seguridad confiables ya que muchas personas utilizan contraseñas poco seguras y esto provoca grandes vulnerabilidades a nivel de seguridad (Mavroeidis et al., 2018b).
 
 A pesar de que la seguridad de la criptografía esté en juego, los algoritmos cuanticos pueden llegar a encriptar claves con un nivel de seguridad muy alto, ya que puede aumentar con el uso de espacios de clave más grandes. Además, se han introducido algoritmos que pueden romper los criptosistemas asimétricos actuales, cuya seguridad se basa en la dificultad de factorizar grandes números primos, ya que encontrar los factores primos de un número muy grande puede ser extremadamente difícil y lleva mucho tiempo para una computadora clásica. Por lo tanto, estos criptosistemas son considerados seguros porque sería muy difícil para un atacante obtener la clave privada necesaria para descifrar la información cifrada.
@@ -224,11 +233,9 @@ Otro problema común es el problema del logaritmo discreto (DLP), en este se uti
 
 Por lo tanto un sistema como una computadora cuantica puede llegar a resolver este tipo de problema en cuestion de segundos, entoces llegamos a la conclusion de que estos equipos pueden tanto dar mucha seguridad como vulnerabilidades en los sistemas criptografícos.
 
-\subsubsection{Vulnerabilidades en los Criptosistemas en la Computación Cuantica}
-        
 En la actualidad la criptografía juega un rol importante en la seguridad de la tecnologia, por ejemplo los emails, contraseñas, transacciones bancarias, hasta sistemas de seguridad (Mavroeidis et al., 2018b)
 
-Según NIST, las computadoras cuanticas van acabar con las actuales esquemas de cifrado pública, ellos afirman el imparto de la computacion cuantica en los esquemas criptograficos actuales (Mavroeidis et al., 2018b). 
+Según NIST, las computadoras cuanticas van acabar con las actuales esquemas de cifrado pública, ellos afirman el imparto de la computacion cuantica en los esquemas criptograficos actuales (Mavroeidis et al., 2018). 
 
 \begin{itemize}
     \item{A}. Algoritmo de Shor
@@ -241,66 +248,74 @@ Según NIST, las computadoras cuanticas van acabar con las actuales esquemas de 
 
         En la segunda etapa del algoritmo, se utiliza el período encontrado en la primera etapa para calcular los factores primos del número entero. Esto se logra mediante el uso de una fórmula matemática que aprovecha la relación entre el período de la función modular y los factores primos del número entero.
 \end{itemize}
-\subsubsection{Criptografía Post-Cuántica}
+
 Después de haber mencionado que es la criptografía, como funciona, los tipos de algoritmos criptograficos que existen y sus funciones, un tema que es muy importante resaltar es la implementacion de más seguridad en la criptografía en la actualidad, ya que como se conocen todos estos defectos y vulnerabilidades en estos sistemas, es importante implementar soluciones a estos problemas.
 
 Actualmente muchas empresas tales como NIST, anunciaron una convocatoria de propuestas de algoritmos en los cuales su idea es crear algoritmos resilientes a los ataques cuanticos, esto pasó en 2017. Luego en el 2018, Nist publicó los resultados de la primera ronda, que fueron un total de 82 algoritmos, de los cuales 59 cumplen con las características solicitadas (Mavroeidis et at., 2018b).
 
 Todo esto es muy importante, ya que si la criptografía cuantica avanza, nos garantizará una mejora en la seguridad de muchas plataformas tecnologicas, como las mencionadas anteriormente. Esto puede llegar a cambiar muchos aspectos cotidianos de las personas, por ejemplo en el año 2023, se anunció una aplicacion que guarda las contraseñas y las introduce como un código cifrado, esto es muy interesante ya que no se introduce una contraseña como tal, sino se introduce un pin el cuál se representa como la contraseña y es más difícil de descifrar.
 
-
-\subsection{Aportes}
-Hoy en día, no existe ningún campo o área en la cual la computación no tenga relevancia, desde trabajos profesionales hasta entretenimiento, la computación está presente en todo sitio, por otro lado, la computación cuántica tiene una visión de estar más enfocada al ámbito profesional, debido a sus abrumadoras capacidades, por lo tanto, se mencionarán algunas áreas en las cuales la computación cuántica podría desarrollar presencia en los próximos años:
-
-\subsubsection{Procesamiento de imágenes} La computación cuántica presenta varias ventajas en este ámbito con respecto a la computación tradicional, varias de estas ventajas son: 
-\begin{enumerate}
-    \item Velocidad: las computadoras cuánticas tienen la capacidad de realizar operaciones en paralelo, lo cual acorta el tiempo de procesamiento drásticamente.
-
-    \item Reducción de errores: este tipo de computación promete realizar cálculos más precisos, ya que analiza todos los casos posibles para dar con una respuesta.
-
-    \item Reducción de recursos: al procesar imágenes de una forma más eficiente, es capaz de minimizar el consumo de otros recursos como lo es la memoria.
-\end{enumerate}
-
-En términos cotidianos, estos cambios no logran convencer a muchas personas, sin embargo, donde realmente se observan resultados sorprendentes es a la hora de procesar imágenes muy técnicas, por ejemplo, las imágenes médicas, donde imágenes en 3D pueden tener entre 512 y 1024 pixeles, en estos casos en concreto es donde se pueden observar cambios significantes, en especial en el tiempo requerido para procesar este tipo de imágenes. (Nouioua y Belbachir, 2023, p.104)
-
- \subsubsection{Finanzas} En el ámbito de las finanzas y económica, se espera que se obtengan muchas ventajas, incluso que se llegue a transformar por completo este campo, todo gracias al exponencial crecimiento que podrían tener los algoritmos cuánticos.
+ \subsubsection{Finanzas} 
+ En el ámbito de las finanzas y económica, se espera que se obtengan muchas ventajas, incluso que se llegue a transformar por completo este campo, todo gracias al exponencial crecimiento que podrían tener los algoritmos cuánticos.
+ 
 Pese a que la computación está presente en las finanzas desde hace mucho tiempo, siguen existiendo problemas financieros, una gran cantidad de estos se podrían describir como deficiencias en la optimización, los cuales serían resueltos con el desarrollo de unidades más eficientes, sin embargo, existen otros problemas los cuales serían solucionados gracias a la computación cuántica, por ejemplo, en las ganancias. 
 
 A la hora de hacer cualquier movimiento, se debe tener en cuenta el riesgo que este conlleva, es decir, se debe analizar si las ganancias serán mayores que las perdidas, a gran escala este análisis representa un enigma muy complejo, el cual puede ser resuelto con ayuda de las computadoras cuánticas, ya que estas tienen la capacidad de analizar una gran cantidad de casos posibles en cortos periodos de tiempo, entregando así los casos más beneficiosos. (Orús et al., 2019, p.100028).
 
 Por otro lado, se espera que con la ayuda de la computación cuántica se pueda tener una visión a futuro del mercado, es decir, que al evaluar un conjunto de casos puede determinar en que momento es mejor hacer movimientos y lograr predecir las tendencias que tendrá el mercado en un lapso. (Orús et al., 2019, p.100028).
 
+\subsubsection{Comunicación}
+Una de las destrezas que se desean desarrollar en la computació cuántica es poder implementarla en la comunicación, específicamente en el internet, ya que este, pese a ser escencial en muchos aspectos de la actualidad, presenta algunas complicaciones como la seguridad y la velocidad. Por eso, se mencionarán algunos beneficios que traerá consigo el internet con el uso de computadoras cuánticas además de potenciales contratiempos que este podría presentar y el medio que servirá para este proceso.
+
+El internet cuántico trae consigo ciertos avances importantes como un aumento significativo de la seguridad y la velocidad, gracias a los conceptos básicos de la cuántica como el entrelazamiento y la superposición, lo cual permite un transporte más rápido en comparación con los sistemas de comunicación de hoy en día. Como mencionan Caleffi et al. (2018), este proceso se llama Teleportación cuántica y se basa en la destrucción del qubit original que se reconstruye en el otro lado del canal, y así se cumple el teorema de no clonación. Para que esto suceda se envían 3 qubits, uno en cada extremo que estén en el mismo estado, y un tercero que va a medir la distancia, al cumplir el viaje el tercer quibit el que envía la información se destruye y vuelve a reconstruirse en el punto de llegada. 
 
 
-
-
-
-\section{Cositas}
-
-
-
-
+\newpage
 \section{Conclusiones}
-\vspace{1cm}
 Escribit acá la conclusion
 
 
 
 \clearpage
 %----------
-\begin{thebibliography}{99}
 
-\bibitem{conagua-2011}
-Comisión Nacional del Agua.
-\textit{Estadísticas del Agua en México, 2011.} Recuperado 8 de agosto de 2021, de \url{http://www.conagua.gob.mx/CONAGUA07/Publicaciones/Publicaciones/SGP-1-11-EAM2011.PDF}
+\subsection{Referencias}
+Alexander, T. (2020). Qiskit pulse: programming quantum computers through the cloud with pulses. IOPSCIENCE. https://iopscience.iop.org/article/10.1088/2058-9565/aba404/meta
 
-\bibitem{The Impact of Quantum Computing on Present}
-Mavroeidis, V., Vishi, K., Zych, M., & Jøsang, A. (2018b). The Impact of Quantum Computing on Present Cryptography. International Journal of Advanced Computer Science and Applications, 9(3). https://doi.org/10.14569/ijacsa.2018.090354
-A pesar de qué la seguridad de la criptografía esté en juego, los algoritmos cuanticos pueden llegar a encriptar claves 
+Awan, U., Hannola, L., Tandon, A., Goyal, R. K., & Dhir, A. (2022). Quantum computing challenges in the software industry. A fuzzy AHP-based approach. Information & Software Technology, 147, 106896. https://doi.org/10.1016/j.infsof.2022.106896
+
+Ayoub, A., y Akram, J. (2021). Thermal entanglement of superconducting qubits for arbitrary interaction strength. Physica C: Superconductivity and its Applications, 591, 1353977. 10.1016/j.physc.2021.1353977.
+
+Mann, A., y Coolman, R. (2022). What is quantum mechanics? livescience.com. 
+https://www.livescience.
+com/33816-quantum-mechanics-explanation.html
+
+Mavroeidis, V. (2018). The Impact of Quantum Computing on Present Cryptography. (IJACSA) International Journal of Advanced Computer Science and Applications, 9(3). 
+1804.00200.pdf (arxiv.org)
+
+Metwalli, S. (2023). What Is Superposition? Built In. 
+https://builtin.com/
+software-engineering-perspectives
+/superposition
+
+Mykhailova, M. (2020). The Quantum Katas. Technical Symposium on Computer Science Education. https://doi.org/10.1145/3328778.3372543
+
+Mykhailova, M. (2021). Testing Quantum Programs using Q# and Microsoft Quantum Development Kit. Proceedings of the 2nd Quantum Software and Engineering Workshop. https://ceur-ws.org/Vol-3008/short6.pdf 
+
+Nouioua, T., y Belbachir, A. H. (2023). The quantum computer for accelerating image processing and strengthening the security of information systems. Chinese Journal of Physics, 81, 104-124. 10.1016/j.cjph.2022
+.11.006. 
+
+Orús, R., Mugel, S., y Lizaso, E. (2019). Quantum computing for finance: Overview and prospects. Reviews in Physics, 4, 100028. 10.1016/j.revip.2019.100028.
+
+S, N., Singh, H., y N, A. U. (2022). An extensive review on quantum computers. Advances in Engineering Software, 174, 103337. 10.1016/j.advengsoft.2022.103337.
+
+Vadimov, A., Viitanen, T., Mörstedt, T., Ala-Nissila, T., y Möttönen, M. (2022). Single-junction quantum-circuit refrigerator. AIP Advances, 12(7), 075005. https://doi.org/10.1063/5.0096849
+
+Xu, X., Wang, W., Sun, L., y Zou, C. (2022). Hybrid superconducting photonic-phononic chip for quantum information processing. Chip, 1(3), 100016. 10.1016/j.chip.2022.100016.
 
 
 
 
-\end{thebibliography}
 
 \end{document}
+
