@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.3)  7 APR 2023 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.3)  23 APR 2023 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -506,51 +506,78 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 \jayDepth@mlpr=\skip54
 \sectionRuleOffset@mlpr=\skip55
 \toks@mlpr=\toks46
+) (/usr/share/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box67
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen298
+\ttl@minus=\dimen299
+\ttl@toksa=\toks47
+\titlewidth=\dimen300
+\titlewidthlast=\dimen301
+\titlewidthfirst=\dimen302
+) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+\CenteringLeftskip=\skip58
+\RaggedLeftLeftskip=\skip59
+\RaggedRightLeftskip=\skip60
+\CenteringRightskip=\skip61
+\RaggedLeftRightskip=\skip62
+\RaggedRightRightskip=\skip63
+\CenteringParfillskip=\skip64
+\RaggedLeftParfillskip=\skip65
+\RaggedRightParfillskip=\skip66
+\JustifyingParfillskip=\skip67
+\CenteringParindent=\skip68
+\RaggedLeftParindent=\skip69
+\RaggedRightParindent=\skip70
+\JustifyingParindent=\skip71
 ) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip56
-\f@nch@O@elh=\skip57
-\f@nch@O@erh=\skip58
-\f@nch@O@olh=\skip59
-\f@nch@O@orh=\skip60
-\f@nch@O@elf=\skip61
-\f@nch@O@erf=\skip62
-\f@nch@O@olf=\skip63
-\f@nch@O@orf=\skip64
+\f@nch@headwidth=\skip72
+\f@nch@O@elh=\skip73
+\f@nch@O@erh=\skip74
+\f@nch@O@olh=\skip75
+\f@nch@O@orh=\skip76
+\f@nch@O@elf=\skip77
+\f@nch@O@erf=\skip78
+\f@nch@O@olf=\skip79
+\f@nch@O@orf=\skip80
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 97.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
-\l__pdf_internal_box=\box67
+\l__pdf_internal_box=\box68
 ) (./main.aux (./TitlePage.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
-
-
-LaTeX Warning: Label `fig:quantum' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,7 +586,7 @@ LaTeX Info: Redefining \% on input line 69.
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
@@ -573,7 +600,7 @@ LaTeX Info: Redefining \% on input line 69.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=121.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -581,24 +608,24 @@ LaTeX Info: Redefining \% on input line 69.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count339
-\scratchdimen=\dimen298
-\scratchbox=\box68
+\scratchdimen=\dimen303
+\scratchbox=\box69
 \nofMPsegments=\count340
 \nofMParguments=\count341
-\everyMPshowfont=\toks47
+\everyMPshowfont=\toks48
 \MPscratchCnt=\count342
-\MPscratchDim=\dimen299
+\MPscratchDim=\dimen304
 \MPnumerator=\count343
 \makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks48
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -619,83 +646,367 @@ Package pdftex.def Info: logo-tecnm.jpg  used on input line 4.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./logo-tecnm.jpg>]) (./main.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logo-tecnm.jpg>]) (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 6.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 6.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
+(Font)              <10> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
-)
+(Font)              <5> on input line 6.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[2
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
+
+./main.tex:106: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.106 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[4]
+./main.tex:119: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.119 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[6]
+./main.tex:144: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.144 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[8]
+Underfull \vbox (badness 5817) has occurred while \output is active []
 
 
-]
+./main.tex:168: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.168 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `undesa2008' on page 2 undefined on input line 87.
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<quantum,.jpg, id=18, 475.7775pt x 356.33125pt>
-File: quantum,.jpg Graphic file (type jpg)
-<use quantum,.jpg>
-Package pdftex.def Info: quantum,.jpg  used on input line 107.
-(pdftex.def)             Requested size: 252.94499pt x 189.44186pt.
-[2 <./quantum,.jpg>] [3] [4] [5]
-<QDK.jpg, id=32, 494.44725pt x 203.5605pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[10]
+./main.tex:192: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.192 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11]
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+./main.tex:217: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.217 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13]
+<QDK.jpg, id=50, 494.44725pt x 203.5605pt>
 File: QDK.jpg Graphic file (type jpg)
 <use QDK.jpg>
-Package pdftex.def Info: QDK.jpg  used on input line 191.
+Package pdftex.def Info: QDK.jpg  used on input line 221.
 (pdftex.def)             Requested size: 252.94499pt x 104.1344pt.
- [6 <./QDK.jpg>] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 249.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [9
 
-] (./main.aux (./TitlePage.aux)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[14 <./QDK.jpg>]
+./main.tex:248: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.248 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[16]
+./main.tex:281: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.281 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+./main.tex:308: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.308 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[20]
+./main.tex:326: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.326 \clearpage
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[21]
+Overfull \hbox (8.9137pt too wide) in paragraph at lines 337--338
+\T1/phv/m/n/10 tum Tech-no-logy, 8(1), 2. 10.1140/epjqt/s40507-021-00091-1 https://doi.org/10.1140/epjqt/s40507-021-00091-
+ []
+
+./main.tex:341: Misplaced alignment tab character &.
+l.341 3233224 http://dl.acm.org/citation.cfm?id&
+                                                #61;3233224
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./main.tex:341: You can't use `macro parameter character #' in horizontal mode.
+l.341 3233224 http://dl.acm.org/citation.cfm?id&#
+                                                 61;3233224
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./main.tex:350: Misplaced alignment tab character &.
+l.350 Li, S., Wu, Y., &
+                        Chen, Y. (2023). A systematic and bibliometric revie...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (135.44193pt too wide) in paragraph at lines 360--363
+\T1/phv/m/n/10 tio-nal Jour-nal of Ad-van-ced Com-pu-ter Scien-ce and Ap-pli-ca-tions, 9(3). 1804.00200.pdf (ar-xiv.org) https://doi.org/10.48550/arXiv.1804.00200 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.95502pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.95502pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.95502pt}.
+
+[22
+
+]
+Overfull \hbox (5.66077pt too wide) in paragraph at lines 364--368
+[]\T1/phv/m/n/10 Metwalli, S. (2023). What Is Su-per-po-si-tion? Built In. https://builtin.com/ software-engineering-perspectives
+ []
+
+
+Overfull \hbox (13.49269pt too wide) in paragraph at lines 371--372
+\T1/phv/m/n/10 Pro-cee-dings of the 2nd Quan-tum Soft-wa-re and En-gi-nee-ring Workshop. https://ceur-ws.org/Vol-3008/short6.pdf 
+ []
+
+
+Overfull \hbox (17.3185pt too wide) in paragraph at lines 373--376
+\T1/phv/m/n/10 strengthe-ning the se-cu-rity of in-for-ma-tion sys-tems. Chi-ne-se Jour-nal of Phy-sics, 81, 104-124. 10.1016/j.cjph.2022
+ []
+
+
+Overfull \hbox (9.91718pt too wide) in paragraph at lines 380--382
+\T1/phv/m/n/10 Soft-wa-re, 174, 103337. 10.1016/j.advengsoft.2022.103337. https://doi.org/10.1016/j.advengsoft.2022.103337 
+ []
+
+
+Overfull \hbox (35.491pt too wide) in paragraph at lines 385--387
+\T1/phv/m/n/10 in-for-ma-tion pro-ces-sing. Chip, 1(3), 100016. 10.1016/j.chip.2022.100016. https://doi.org/10.1016/j.chip.2022.100016 
+ []
+
+./main.tex:392: Undefined control sequence.
+\f@nch@och ->\myAuthor 
+                       \strut 
+l.392 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23] (./main.aux (./TitlePage.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 )
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 27058 strings out of 476025
- 665432 string characters out of 5796533
- 1861388 words of memory out of 5000000
- 47065 multiletter control sequences out of 15000+600000
- 565933 words of font info for 57 fonts, out of 8000000 for 9000
+ 27499 strings out of 476025
+ 672380 string characters out of 5796533
+ 1859388 words of memory out of 5000000
+ 47489 multiletter control sequences out of 15000+600000
+ 555312 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,103p,942b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (10 pages, 401784 bytes).
+ 99i,12n,103p,1132b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (23 pages, 216844 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
