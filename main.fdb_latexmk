@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1682281078 "main.tex" "main.pdf" "main" 1682281078 2
+["pdflatex"] 1682319976 "main.tex" "main.pdf" "main" 1682319976 2
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1680514707 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1680514707 4484 b828043cbd581d289d955903c1339981 ""
@@ -181,12 +181,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1680536329 4491781 539e3b5e308794ddb50e5f94f0e971f4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1680536303 8204064 7aa83a474db273f4590c2108970ceb1f ""
   "QDK.jpg" 1680946002 64705 907e0b331710a13bc11c680ee7dd89ac ""
-  "TitlePage.aux" 1682281078 884 298d3ec9172d7eec6ca317c3ba1726ac "pdflatex"
+  "TitlePage.aux" 1682319976 884 298d3ec9172d7eec6ca317c3ba1726ac "pdflatex"
   "TitlePage.tex" 1680946002 823 64844b1843b093ef516235ac7d4d651d ""
   "logo-tecnm.jpg" 1680946002 82436 53376f4dafbef76ed62163f573784216 ""
-  "main.aux" 1682281078 3289 a83408a67557dd6e056dcb0ba285cb96 "pdflatex"
-  "main.tex" 1682281073 46874 899c4dd5fcfcd449a636dc36d470f8bd ""
-  "main.toc" 1682281078 1802 e75609bfbe4db3192699595cd6c12b6f "pdflatex"
+  "main.aux" 1682319976 3289 a83408a67557dd6e056dcb0ba285cb96 "pdflatex"
+  "main.tex" 1682319971 47201 b4a3d3d31d05136b3fea361991d9cb2a ""
+  "main.toc" 1682319976 1802 e75609bfbe4db3192699595cd6c12b6f "pdflatex"
   (generated)
   "TitlePage.aux"
   "main.aux"
