@@ -4,7 +4,7 @@
 \usepackage[T1]{fontenc} % allows to copy accented words on PDF
 \usepackage{blindtext}
 \usepackage[letterpaper, margin=1in]{geometry}
-\usepackage{url}
+\usepackage{url}2
 \usepackage{pgfplots}
 \pgfplotsset{width=10cm,compat=1.9}
 \usepackage{graphicx}
@@ -70,7 +70,9 @@ Institución 3}
 \fancyhf{}
 
 % Definir los comandos para el nombre del instituto y los autores
-\newcommand{\institute}{\centering Instituto Tecnológico de Costa Rica}
+\newcommand{\institute}{\centering Funcionamiento y avances de las computadoras
+cuánticas en contraste con las computadoras
+tradicionales}
 \newcommand{\authors}{\centering Adrián Villalobos, Isaac Ramírez, Maikol Flores}
 
 % Definir los encabezados y pie de página
@@ -159,20 +161,19 @@ En terminos de computación cuántica, se conoce como ruido a todas las perturba
 \newpage
 \section{Estado del arte}
 \subsection{Bit vs Qubit}
- Para empezar, se debe destacar queLas computadoras cuánticas han sido un paradigma en el muundo de la computación y se espera que estas tengan la capacidad de resolver problemas que parecen imposibles para las computadoras actuales (Liu y Franklin, 2023).
+ Para empezar, se debe destacar que las computadoras cuánticas han sido un paradigma en el mundo de la computación y se espera que estas tengan la capacidad de resolver problemas que parecen imposibles para las computadoras actuales (Liu y Franklin, 2023).
  
- La unidad más básica de información de las computadoras tradicionales son los bits, los cuales solo pueden representar uno de dos valores, un ‘1’ o un ‘0’. Por otro lado, en la computación cuántica existen los qubits, los cuales son bits con la capacidad de presentar más de un estado a la vez, de hecho, lo que hace especial a los qubits es que estos mantienen todos los estados simultáneamente, es decir, son ‘1’ y ‘0’ al mismo tiempo, esto es gracias a la superposición cuántica. Además, cabe destacar que los qubits se basan también en el comportamiento de partículas y electrones (Li et al., 2023). Sin embargo, a la hora de querer medir el valor de un qubit, este solo puede decir ‘1’ o ‘0’, es decir, que se fuerza al sistema a que elija el valor aleatoriamente para poder manifestarlo, colapsando así la superposición que mantenía. (S et al., 2022).
-
-En otras palabras, se puede llegar a la conclusión de que la forma de tratar la información en la computación cuántica es mediante probabilidades, mientras que en la computación normal los valores son absolutos y claramente determinados.
+ La unidad más básica de información de las computadoras tradicionales son los bits, los cuales solo pueden representar con un ‘1’ o un ‘0’. Por otro lado, en la computación cuántica existen los qubits, los cuales son bits con la capacidad de presentarse en más de un estado a la vez. De hecho, lo que hace especial a los qubits es que estos mantienen todos los estados simultáneamente, es decir, son ‘1’ y ‘0’ al mismo tiempo, esto es gracias a la superposición cuántica. 
+ 
+ Además, cabe destacar que los qubits se basan también en el comportamiento de partículas y electrones (Li et al., 2023). Sin embargo, a la hora de querer medir el valor de un qubit, este solo puede decir ‘1’ o ‘0’, es decir, que se fuerza al sistema a que elija el valor aleatoriamente para poder manifestarlo, colapsando así la superposición que mantenía. (S et al., 2022). Por lo tanto, se puede decir que forma de tratar la información en la computación cuántica es mediante probabilidades, mientras que en la computación tradicional los valores son absolutos y claramente determinados.
 
 Por otro lado, los qubits presentan otra característica muy importante, que es el entrelazamiento. En términos generales, el entrelazamiento cuántico consiste en que las acciones realizadas por un qubit no afectan únicamente al qubit en cuestión, si no que, esta acción puede afectar y determinar las acciones de otro qubit, incluso puede cambiar la forma de trabajar de un conjunto de qubits, no necesariamente uno solo y todo esto es posible sin importar la distancia a los que estos se encuentren. 
-Existen varias maneras de crear un entrelazamiento cuántico entre los qubits, una de ellas es el acoplamiento directo, que consiste en sincronizar dos qubits mediante el uso de una fuerza externa. También existe el entrelazamiento por medio de campos magnéticos, el cual se trata de colocar los qubits que se quieren entrelazar en un campo magnético para ajustar sus frecuencias y lograr que sean iguales, de esta forma se puede generar un entrelazamiento cuántico. (Ayoub y Akram, 2021).
 
-Lo anterior provoca que los sistemas de computación cuántica logren cálculos muchos más rápidos, ya que los qubits están en constante ‘comunicación’, a diferencia de los bits normales que trabajan de manera independiente a los otros. 
+Existen varias maneras de crear un entrelazamiento cuántico entre los qubits, una de ellas es el acoplamiento directo, que consiste en sincronizar dos qubits mediante el uso de una fuerza externa. También existe el entrelazamiento por medio de campos magnéticos, el cual trata de colocar los qubits que se quieren entrelazar en un campo magnético para ajustar sus frecuencias y lograr que sean iguales, de esta forma se puede generar un entrelazamiento cuántico. (Ayoub y Akram, 2021). Lo anterior provoca que los sistemas de computación cuántica logren cálculos muchos más rápidos, ya que los qubits están en constante ‘comunicación’, a diferencia de los bits normales que trabajan de manera independiente a los otros. 
 
 \subsection{Transporte de información}
 El transporte en la cuántica también es importante, porque es la manera como los qubits van a viajar. Por un lado, para la comunicación tradicional de bits, la manera de transportarlos es más sencillo, ya que se toma en cuenta los buses, los transistores y las compuertas lógicas. Sin embargo, con la computación cuántica resulta un poco diferente, ya que a la hora de transportar información, los qubits podrían presentar problemas debido a agentes externos, como el ruido.
-Si se habla de la manera en que se puede transportar un qubit, estos pueden viajar como fotones que, por medio de la infraestructura preparada y controlada pueden viajar a velocidades muy rápidas. Maier et al (2019) mencionan que, para transportar los qubits se utiliza un Hamiltoniano, (un operador que actúa sobre la función de onda de un sistema cuántico, con el fin de describir su energía total), esto con el objetivo de una interacción de los spines, la descripción de saltos y conservar la magnetización.
+Si se habla de la manera en que se puede transportar un qubit, estos pueden viajar como fotones que, por medio de la infraestructura preparada y controlada pueden viajar a velocidades muy rápidas. Maier et al (2019) mencionan que, para transportar los qubits se utiliza un Hamiltoniano, (un operador que actúa sobre la función de onda de un sistema cuántico, con el fin de describir su energía total), esto para lograr una interacción de los spines, la descripción de saltos y conservar la magnetización.
 
 Por otro lado, las investigaciones para optimizar el transporte de información en las computadoras cuánticas siguen vigentes, además, según Caleffi et al. (2018), trabajar con fotones como método de transporte de información puede facilitar estas investigaciones, ya que las características de la luz, la convierte en uno de los métodos más factibles para este tipo de tecnología.
 
@@ -183,16 +184,14 @@ Por otro lado, las computadoras cuánticas están compuestas en su mayoría por 
 \subsubsection{Chips}
 Se podría decir, que en si la computadora cuántica es un chip, en el cual se encuentran los qubits, en la actualidad se trabajan dos tipos de chips, uno de ellos es el chip de fotones cuánticos, el cual básicamente se encarga de generar fotones los cuales ayudan a los qubits a generar cálculos y enviar información. También existen los chips de superconductores cuánticos, los cuales son más prometedores que los chips de fotones, esto se debe a que las investigaciones en procesamiento de información cuántica en materiales superconductores están mucho más avanzadas que las investigaciones en materiales fotónicos. (Xu et al., 2022).
 
-Pese a todo lo anterior, cabe destacar que varios centros de investigación están trabajando en la creación de un chip híbrido, que tenga las ventajas de los chips de fotones y de los superconductores, sin embargo, existen muchas dificultades para alcanzarlo, por ejemplo, los materiales a utilizar, ya que se necesita encontrar un material que presente compatibilidad entre materiales dieléctricos y superconductores. (Xu et al., 2022).
+Pese a todo lo anterior, cabe destacar que varios centros de investigación están trabajando en la creación de un chip híbrido, que tenga las ventajas de los chips de fotones y de los superconductores, sin embargo, existen muchas dificultades para alcanzarlo, por ejemplo, los materiales a utilizar, ya que se necesita encontrar un material que presente compatibilidad entre materiales dieléctricos y superconductores (Xu et al., 2022).
 
 \subsubsection{Sistema de refrigeración}
-La refrigeración en las computadoras cuánticas es de suma importancia, y esto se debe a varios aspectos, entre estos está que las computadoras rinden mejor a bajos niveles de temperatura, ya que el calor producido tanto por computadoras normales como por computadoras cuánticas es resultado de un desgaste de energía, debido a que no toda la energía proporcionada por el hardware es aprovechada.
+La refrigeración en las computadoras cuánticas es de suma importancia, y esto se debe a varios aspectos, entre estos está que las computadoras poseen mejor rendimiento a bajos niveles de temperatura, ya que el calor producido tanto por computadoras normales como por computadoras cuánticas es el resultado de un desgaste de energía, debido a que no toda la energía proporcionada por el hardware es aprovechada.
  
-En el caso de las computadoras tradicionales, estas tienen un límite de calor, el cual cuando es alcanzado, se reduce el rendimiento del sistema para reducir el riesgo de que se estropee algún componente debido a las altas temperaturas.
+En el caso de las computadoras tradicionales, estas tienen un límite de calor, el cual cuando es alcanzado, se reduce el rendimiento del sistema para reducir el riesgo de que se estropee algún componente debido a las altas temperaturas. Pero si hablamos de computadoras cuánticas, es aún peor, ya que el calor provoca una excitación en los qubits, lo anterior tiene como consecuencia que los qubits se disparen y den cálculos erróneos o en el peor de los casos, que se lleguen a estropear. 
 
- Si hablamos de computadoras cuánticas, es aún peor, ya que el calor provoca una excitación en los qubits, lo anterior tiene como consecuencia que los qubits se disparen y den cálculos erróneos o en el peor de los casos, que se lleguen a estropear. 
-
-Otra razón por la cual es importante mantener las computadoras cuánticas a temperaturas bajas es que, los qubits son intolerantes al ruido y débiles ante la fluctuación de temperatura, es decir, que no soportan los cambios de temperatura. Lo anterior se soluciona encontrando una temperatura estable, la cual mantenga en el mayor lapso posible la misma sensación térmica, además que permita la mínima infiltración de ruido en los qubits, esta sensación térmica ideal es una muy baja, la cual llega casi al cero absoluto. (Vadimov et al., 2022).
+Otra razón por la cual es importante mantener las computadoras cuánticas a temperaturas bajas es que, los qubits son intolerantes al ruido y débiles ante la fluctuación de temperatura, es decir, que no soportan los cambios de temperatura. Lo anterior se soluciona encontrando una temperatura estable, la cual debe mantenerse el mayor lapso de tiempo posible en la misma sensación térmica, además que mantenga la mínima infiltración de ruido en los qubits, esta sensación térmica ideal es una muy baja, la cual llega casi al cero absoluto. (Vadimov et al., 2022).
 
 Por otro lado, al mantener el hardware a bajas temperaturas se habilita el uso de materiales superconductores para la fabricación de las computadoras cuánticas, los cuales tienen una resistencia eléctrica baja a ciertas temperaturas, esto provoca que sean excelentes para trabajar con hardware cuántico. (Vadimov et al., 2022).
 
@@ -223,7 +222,7 @@ Generalmente cuando se desarrolla un software en un entorno como el QDK, se debe
 \begin{figure}[htb]
     \centering
     \includegraphics[width=3.5in]{QDK.jpg}
-    \caption{Flujo de trabajo de ingeniería de software cuántico y herramientas QDK que respaldan cada paso.}
+    \caption{Flujo de trabajo de ingeniería de software cuántico y herramientas QDK que respaldan cada paso (Mykhailova, 2020).}
     \label{fig:quantum}
 \end{figure}
 
@@ -236,7 +235,7 @@ Otro factor importante por considerar en la comparación de softwares cuánticos
 En conclusión, los softwares cuánticos ofrecen grandes capacidades en velocidades, capacidad y precisión, sin embargo, estos softwares se encuentran en desarrollo y existen muchos retos que deben ser superados, para poder llevar este software a un nivel de mejora más alto. A medida que los ordenadores y los algoritmos cuánticos sigan evolucionando, se espera que se abran nuevas posibilidades en áreas como la optimización, la simulación de sistemas complejos y la criptografía. 
 
 \subsection{Aportes}
-Hoy en día, no existe ningún campo o área en la cual la computación no tenga relevancia, desde trabajos profesionales hasta entretenimiento, la computación está presente en todo sitio, por otro lado, la computación cuántica tiene una visión de estar más enfocada al ámbito profesional, debido a sus abrumadoras capacidades, por lo tanto, se mencionarán algunas áreas en las cuales la computación cuántica podría desarrollar presencia en los próximos años:
+Hoy en día, no existe ningún campo o área en la cual la computación no tenga relevancia, desde trabajos profesionales hasta entretenimiento, la computación está presente en todo sitio. Por otro lado, la computación cuántica tiene como visión estar más enfocada al ámbito profesional, debido a sus abrumadoras capacidades, por lo tanto, se mencionarán algunas áreas en las cuales la computación cuántica podría desarrollar presencia en los próximos años:
 
 \subsubsection{Procesamiento de imágenes} 
 La computación cuántica presenta varias ventajas en este ámbito con respecto a la computación tradicional, varias de estas ventajas son: 
@@ -266,18 +265,16 @@ A pesar de que la seguridad de la criptografía esté en juego, los algoritmos c
         ¿A qué hace referencia esto? Se refiere a que se utilizan claves distintas para cifrar y descifrar, a diferencia de la simétrica, ahí se utiliza la misma clave para cifrado y descifrado, en la asimétrica se utiliza una clave privada y otra pública. La clave pública se comparte ampliamente y se utiliza para cifrar la información que se va a enviar a la persona que posee la clave privada. Solo el propietario de la clave privada correspondiente puede descifrar la información cifrada con la clave pública. La clave privada se mantiene en secreto y solo la persona que la posee puede usarla para descifrar la información cifrada con la clave pública. 
 \end{itemize}
 
-Un problema muy importante de la criptografía es el problema de factorización, ya que existe un algoritmo llamado criptosistema RSA, el cual se encarga de encriptar las contraseñas con algoritmos como los AES. Kirsch afirma que RSA es teóricamente vulnerable, ya que en un sistema cuántico donde se pueden realizar una cantidad de algoritmos eficientes que descriptan contraseñas, puede llegar a ser un problema para la seguridad de este tipo de datos y encriptaciones. 
+Un problema muy importante de la criptografía es el problema de factorización, ya que existe un algoritmo llamado criptosistema RSA, el cual se encarga de encriptar las contraseñas con algoritmos como los AES. Kirsch afirma que RSA es teóricamente vulnerable, ya que en un sistema cuántico donde se pueden realizar una cantidad de algoritmos eficientes que desencriptan contraseñas, puede llegar a ser un problema para la seguridad de este tipo de datos y encriptaciones. 
 
-Otro problema común es el problema del logaritmo discreto (DLP), en este se utilizan sistemas de seguridad como Diffie-Hellman y Elliptic Curve Cryptography para proteger la información. El DLP consiste en encontrar un número entero r que cumpla con cierta ecuación matemática. Resolver este problema es muy difícil y requiere de mucho tiempo y recursos computacionales. Debido a esto, los sistemas de seguridad son muy efectivos para proteger información. 
+Otro problema común es el problema del logaritmo discreto (DLP), en este se utilizan sistemas de seguridad como Diffie-Hellman y Elliptic Curve Cryptography para proteger la información. El DLP consiste en encontrar un número entero "r" que cumpla con cierta ecuación matemática. Resolver este problema es muy difícil y requiere de mucho tiempo y recursos computacionales. Debido a esto, los sistemas de seguridad son muy efectivos para proteger información. 
 
 Por lo tanto, un sistema como una computadora cuántica puede llegar a resolver este tipo de problema en cuestión de segundos, entonces llegamos a la conclusión de que estos equipos pueden tanto dar mucha seguridad como vulnerabilidades en los sistemas criptográficos. 
 
-En la actualidad la criptografía juega un rol importante en la seguridad de la tecnología, por ejemplo, los emails, contraseñas, transacciones bancarias, hasta sistemas de seguridad (Mavroeidis et al., 2018) 
-
-Según NIST, las computadoras cuánticas van a acabar con los actuales esquemas de cifrado pública, ellos afirman el imparto de la computación cuántica en los esquemas criptográficos actuales (Mavroeidis et al., 2018). 
+En la actualidad la criptografía juega un rol importante en la seguridad de la tecnología, por ejemplo, los emails, contraseñas, transacciones bancarias, hasta sistemas de seguridad (Mavroeidis et al., 2018)  Según NIST, las computadoras cuánticas van a acabar con los actuales esquemas de cifrado pública, ellos afirman el imparto de la computación cuántica en los esquemas criptográficos actuales (Mavroeidis et al., 2018). 
 
 \begin{itemize}
-    \item{A}. Algoritmo de Shor
+    \item{A}-. Algoritmo de Shor
 
         El algoritmo de Shor es un algoritmo que se utiliza para factorizar números enteros grandes en sus factores primos. Este algoritmo es muy importante en la criptografía asimétrica, ya que se utiliza en muchos sistemas como RSA, que tienen la dificultad de factorizar números enteros, a causa de esto este tipo de algoritmo se utiliza con el fin de facilitar este proceso y mejorar la seguridad. 
 
@@ -288,25 +285,27 @@ Según NIST, las computadoras cuánticas van a acabar con los actuales esquemas 
         En la segunda etapa del algoritmo, se utiliza el período encontrado en la primera etapa para calcular los factores primos del número entero. Esto se logra mediante el uso de una fórmula matemática que aprovecha la relación entre el período de la función modular y los factores primos del número entero. 
 \end{itemize}
 
-Después de haber mencionado que es la criptografía, como funciona, los tipos de algoritmos criptográficos que existen y sus funciones, un tema que es muy importante resaltar es la implementación de más seguridad en la criptografía en la actualidad, ya que como se conocen todos estos defectos y vulnerabilidades en estos sistemas, es importante implementar soluciones a estos problemas. 
+Después de haber mencionado qué es la criptografía, cómo funciona, los tipos de algoritmos criptográficos que existen y sus funciones, un tema que es muy importante resaltar es la implementación de más seguridad en la criptografía en la actualidad, ya que como se conocen todos estos defectos y vulnerabilidades en estos sistemas, es importante implementar soluciones a estos problemas. 
 
 Actualmente muchas empresas tales como NIST, anunciaron una convocatoria de propuestas de algoritmos en los cuales su idea es crear algoritmos resilientes a los ataques cuánticos, esto pasó en 2017. Luego en el 2018, Nist publicó los resultados de la primera ronda, que fueron un total de 82 algoritmos, de los cuales 59 cumplen con las características solicitadas (Mavroeidis et at., 2018). 
 
-Todo esto es muy importante, ya que, si la criptografía cuántica avanza, nos garantizará una mejora en la seguridad de muchas plataformas tecnológicas, como las mencionadas anteriormente. Esto puede llegar a cambiar muchos aspectos cotidianos de las personas, por ejemplo, en el año 2023, se anunció una aplicación que guarda las contraseñas y las introduce como un código cifrado, esto es muy interesante ya que no se introduce una contraseña como tal, sino se introduce un pin el cuál se representa como la contraseña y es más difícil de descifrar. 
+Todo esto es muy importante, ya que, si la criptografía cuántica avanza, nos garantizará una mejora en la seguridad de muchas plataformas tecnológicas, como las mencionadas anteriormente. Esto puede llegar a cambiar muchos aspectos cotidianos de las personas. Por ejemplo, en el año 2023, se anunció una aplicación que guarda las contraseñas y las introduce como un código cifrado, esto es muy interesante ya que no se introduce una contraseña como tal, sino se introduce un pin el cuál se representa como la contraseña y es más difícil de descifrar. 
+
 
  \subsubsection{Finanzas} 
- En el ámbito de las finanzas y económica, se espera que se obtengan muchas ventajas, incluso que se llegue a transformar por completo este campo, todo gracias al exponencial crecimiento que podrían tener los algoritmos cuánticos.
+En el ámbito de las finanzas y economía, se espera que se obtengan muchas ventajas, incluso que se llegue a transformar por completo este campo, todo gracias al exponencial crecimiento que podrían tener los algoritmos cuánticos.
  
 Pese a que la computación está presente en las finanzas desde hace mucho tiempo, siguen existiendo problemas financieros, una gran cantidad de estos se podrían describir como deficiencias en la optimización, los cuales serían resueltos con el desarrollo de unidades más eficientes, sin embargo, existen otros problemas los cuales serían solucionados gracias a la computación cuántica, por ejemplo, en las ganancias. 
 
-A la hora de hacer cualquier movimiento, se debe tener en cuenta el riesgo que este conlleva, es decir, se debe analizar si las ganancias serán mayores que las perdidas, a gran escala este análisis representa un enigma muy complejo, el cual puede ser resuelto con ayuda de las computadoras cuánticas, ya que estas tienen la capacidad de analizar una gran cantidad de casos posibles en cortos periodos de tiempo, entregando así los casos más beneficiosos. (Orús et al., 2019).
+A la hora de hacer cualquier movimiento, se debe tener en cuenta el riesgo que este conlleva, es decir, se debe analizar si las ganancias serán mayores que las perdidas. A gran escala este análisis representa un enigma muy complejo, el cual puede ser resuelto con ayuda de las computadoras cuánticas, ya que estas tienen la capacidad de analizar una gran cantidad de casos posibles en cortos periodos de tiempo, entregando así los casos más beneficiosos. (Orús et al., 2019).
 
 Por otro lado, se espera que con la ayuda de la computación cuántica se pueda tener una visión a futuro del mercado, es decir, que al evaluar un conjunto de casos puede determinar en que momento es mejor hacer movimientos y lograr predecir las tendencias que tendrá el mercado en un lapso. (Orús et al., 2019).
 
 \subsubsection{Comunicación}
-Una de las destrezas que se desean desarrollar en la computació cuántica es poder implementarla en la comunicación, específicamente en el internet, ya que este, pese a ser escencial en muchos aspectos de la actualidad, presenta algunas complicaciones como la seguridad y la velocidad. Por eso, se mencionarán algunos beneficios que traerá consigo el internet con el uso de computadoras cuánticas además de potenciales contratiempos que este podría presentar y el medio que servirá para este proceso.
+Una de las destrezas que se desean desarrollar en la computación cuántica es poder implementarla en la comunicación, específicamente en el internet, ya que este, pese a ser escencial en muchos aspectos de la actualidad, presenta algunas complicaciones como la seguridad y la velocidad. Por eso, se mencionarán algunos beneficios que traerá consigo el internet con el uso de computadoras cuánticas además de potenciales contratiempos que este podría presentar y el medio que servirá para este proceso.
 
-El internet cuántico trae consigo ciertos avances importantes como un aumento significativo de la seguridad y la velocidad, gracias a los conceptos básicos de la cuántica como el entrelazamiento y la superposición, lo cual permite un transporte más rápido en comparación con los sistemas de comunicación de hoy en día. Como mencionan Caleffi et al. (2018), este proceso se llama Teleportación cuántica y se basa en la destrucción del qubit original que se reconstruye en el otro lado del canal, y así se cumple el teorema de no clonación. Para que esto suceda se envían 3 qubits, uno en cada extremo que estén en el mismo estado, y un tercero que va a medir la distancia, al cumplir el viaje el tercer quibit el que envía la información se destruye y vuelve a reconstruirse en el punto de llegada. 
+El internet cuántico trae consigo ciertos avances importantes como un aumento significativo de la seguridad y la velocidad, gracias a los conceptos básicos de la cuántica como el entrelazamiento y la superposición, lo cual permite un transporte más rápido en comparación con los sistemas de comunicación de hoy en día. Como mencionan Caleffi et al. (2018), este proceso se llama Teleportación cuántica y se basa en la destrucción del qubit original que se reconstruye en el otro lado del canal, y así se cumple el teorema de no clonación. Para que esto suceda se envían 3 qubits, uno en cada extremo que estén en el mismo estado, y un tercero que va a medir la distancia, al cumplir el viaje el tercer quibit que envía la información se destruye y vuelve a reconstruirse en el punto de llegada. 
+
 \subsubsection{Medicina}
 Además del procesamiento de imágenes, la computación cuántica puede significar un paradigma en la medicina, se espera que su mayor aporte sea para el tratamiento de cáncer, ya que, se presume que la computación cuántica será de gran utilidad en la radioterapia.
 
@@ -316,14 +315,15 @@ La computación cuántica tiene la capacidad de realizar millones de cálculos e
 
 \subsection{Potenciales problemas de la computación cuántica}
 
-La computación clásica a lo largo de su evolución ha presentado varios contratiempos en cuanto al transporte de la información, como lo son los cuellos de botella que son causados por memoria o hardware insuficientes, incluso algoritmos ineficientes. En cuanto a la computación cuántica, se puede hablar de cuellos de botella como la decoherencia de los procesos, esto ocurre en consecuencia de que las computadoras cuánticas, como se ha mencionado anteriormente, son muy sensibles a cualquier perturbación del medio, esto provoca que los qubits pierdan su principal caracteriztica que es su superposición, provocando así que funcionen como bits clásicos o incluso que dejen de funcionar. Si se da el caso de que funcionan como bits normales, los qubits acaban colapsando debido a que se les está pidiendo acciones que requieren múltiples cálculos, acciones que los qubits en estados de superposición podrían realizar sin problemas, pero al presentar esta afección, se crea un cuello botella ya que, se solicitan más cálculos de los  que se pueden realizar. (Zaidenberg et al. 2021).
+La computación clásica a lo largo de su evolución ha presentado varios contratiempos en cuanto al transporte de la información, como lo son los cuellos de botella que son causados por memoria o hardware insuficientes, incluso algoritmos ineficientes. En cuanto a la computación cuántica, se puede hablar de cuellos de botella como la decoherencia de los procesos, esto ocurre como consecuencia de que las computadoras cuánticas. Como se ha mencionado anteriormente, son muy sensibles a cualquier perturbación del medio, esto provoca que los qubits pierdan su principal característica que es la superposición, provocando así que funcionen como bits clásicos o incluso que dejen de funcionar. Si se da el caso de que funcionan como bits normales, los qubits acaban colapsando debido a que se les está pidiendo acciones que requieren múltiples cálculos, acciones que los qubits en estados de superposición podrían realizar sin problemas, pero al presentar esta afección, se crea un cuello botella ya que, se solicitan más cálculos de los  que se pueden realizar. (Zaidenberg et al. 2021).
 
-Por otro lado, a pesar de que se han mencionado muchas ventajas que podría traer la computación cuántica, lo cierto es que también existen aspectos que amenazan con ser perjudicales, por ejemplo, en el ámbito de ciberseguridad y criptográfia, se teme que las computadoras cuánticas, al poder realizar cálculos extremadamente rápidos y precisos, puedan romper sistemas de cifrado en muy poco tiempo, cuando a las computadoras clásicas les tomaría años realizar estas acciones. (Bova et al., 2021). 
+Por otro lado, a pesar de que se han mencionado muchas ventajas que podría traer la computación cuántica, lo cierto es que también existen aspectos que resultan ser amenazantes. Por ejemplo, en el ámbito de ciberseguridad y criptográfia, se teme que las computadoras cuánticas, al poder realizar cálculos extremadamente rápidos y precisos, puedan romper sistemas de cifrado en muy poco tiempo, cuando a las computadoras clásicas les tomaría años realizar estas acciones. (Bova et al., 2021). 
 
 \newpage
 \section{Conclusiones}
 Como conclusión, si bien se puede demostrar que los computadores cuánticos poseen mayor potencia de procesamiento que los computadores tradicionales, pudiendo realizar cálculos que tomarían años, procesando imágenes mucho mejor que los computadores actuales o actuando en el área de la ciberseguridad. Estos aún no cumplen con todas las expectativas que se tienen sobre ellos, ya que presentan errores y complicaciones a la hora de trabajar. Además de que los computadores actuales tienen la ventaja de que son más amigables con la interacción usuario-máquina, ya que se han desarrollado para tener interfaces cómodas para las personas. Sin embargo, aún falta mucho por investigar sobre la computación cuántica, incluyendo maneras en que se pueda relacionar de manera cómoda con el usuario. Por lo que, si bien, hay mucha diferencia entre los computadores cuánticos y los tradicionales existe la posibilidad de que en el futuro se puedan desarrollar dispositivos híbridos que alcancen el balance entre ambas áreas.
 Pese a todo lo anterior, se debe destacar que se debe tener sumo cuidado a la hora de crear dispositivos de esta magnitud, ya que al ser tan capaces, existe la posibilidad de que se pierda el control sobre estos, por lo tanto es importante que las investigaciones a futuro no se salgan de los conocimientos que se tienen sobre el tema, de esta forma, se pueden saber las consecuencias de lograr avances en la computación cuántica de una forma segura.
+
 
 
 
@@ -361,9 +361,16 @@ Mann, A., y Coolman, R. (2022). What is quantum mechanics? livescience.com.
 https://www.livescience.
 com/33816-quantum-mechanics-explanation.html
 
-Mavroeidis, V. (2018). The Impact of Quantum Computing on Present Cryptography. (IJACSA) International Journal of Advanced Computer Science and Applications, 9(3). 
-1804.00200.pdf (arxiv.org)
-https://doi.org/10.48550/arXiv.1804.00200
+Mavroeidis, V. (2018). The Impact 
+of Quantum Computing on Present 
+Cryptography. (IJACSA) 
+International Journal of Advanced 
+Computer Science 
+and Applications, 9(3). 
+1804.00200.pdf (
+arxiv.org)
+https://doi.org
+/10.48550/arXiv.1804.00200
 
 Metwalli, S. (2023). What Is Superposition? Built In. 
 https://builtin.com/
@@ -387,7 +394,9 @@ https://doi.org/10.1016/j.advengsoft.2022.103337
 Vadimov, A., Viitanen, T., Mörstedt, T., Ala-Nissila, T., y Möttönen, M. (2022). Single-junction quantum-circuit refrigerator. AIP Advances, 12(7), 075005. https://doi.org/10.1063/5.0096849
 
 Xu, X., Wang, W., Sun, L., y Zou, C. (2022). Hybrid superconducting photonic-phononic chip for quantum information processing. Chip, 1(3), 100016. 10.1016/j.chip.2022.100016.
-https://doi.org/10.1016/j.chip.2022.100016
+https://doi.org/10.
+1016/j.chip.2022.
+100016
 
 Zaidenberg, D. A., Sebastianelli, A., Spiller, D., Le Saux, B., y Ullo, S. L. (2021).  Advantages and Bottlenecks of Quantum Machine Learning for Remote Sensing. Paper presented at the 5680-5683. 10.1109/IGARSS47720.2021.9553133 https://ieeexplore.ieee.org/document/9553133
 
