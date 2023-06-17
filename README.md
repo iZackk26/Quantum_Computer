@@ -12,5 +12,5 @@
                                                                        ░                                                                                
 
 ```
-This is my project of Quantum COmputers that i made for my FUC classes. I hope this project helps you to understand the importance of the Cuantum Computers in the future and the benefits of it.
+This is my project of Quantum Computers that i made for my FUC classes. I hope this project helps you to understand the importance of the Quantum Computers in the future and the benefits of it.
 
